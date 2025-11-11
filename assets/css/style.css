@@ -304,6 +304,9 @@ img {
 .cta-section .section-title {
     color: var(--primary-color);
 }
+.cta-section .section-intro {
+    color: rgba(255, 255, 255, 0.9); /* A slightly transparent white looks elegant */
+}
 .cta-buttons {
     margin-top: 2rem;
 }
