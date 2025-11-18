@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Green Society Nepal</title>
+    <title>Our Projects - Green Society Nepal</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
@@ -12,139 +12,162 @@
 <body>
 
     <header class="main-header">
-    <div class="container">
-        <a href="index.html" class="logo">
-            <img src="assets/images/logo-white.png" alt="Green Society Nepal Logo">
-        </a>
-        <nav class="main-nav">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="members.html">Members</a></li>
-                <li><a href="news.html">News & Events</a></li>
-                <li><a href="documents.html">Documents</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <a href="donation.html" class="btn btn-primary">Donate Now</a>
-        <button class="hamburger" id="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </div>
-</header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo-white.png" alt="Green Society Nepal Logo">
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="news.html">News & Events</a></li>
+                    <li><a href="documents.html">Documents</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="donation.html" class="btn btn-primary">Donate Now</a>
+            <button class="hamburger" id="hamburger-menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
 
     <main>
         <!-- Page Header -->
-        <section class="page-header" style="background-image: url('assets/images/about-us-banner.png');">
+        <section class="page-header" style="background-image: url('assets/images/project-environment.jpg');">
             <div class="hero-overlay"></div>
             <div class="container animate-fade-in">
-                <h1>About Green Society Nepal</h1>
-                <p>Our journey, mission, and the dedicated team behind our work.</p>
+                <h1>Our Projects</h1>
+                <p>Driving change through targeted, community-focused initiatives.</p>
             </div>
         </section>
 
-        <!-- Mission & Vision Section -->
+        <!-- Projects Section -->
         <section class="section-padding">
-            <div class="container animate-slide-up">
-                <div class="two-column-layout">
-                    <div class="column">
-                        <h2 class="section-title">Our Mission</h2>
-                        <p>To launch effective programs in environmental conservation, health, and education by mobilizing local communities and collaborating with national and international organizations. We aim to empower marginalized groups and foster a sustainable, self-reliant society.</p>
+            <div class="container">
+                <div class="project-details-grid">
+
+                    <!-- Project: Environment -->
+                    <div class="project-detail-card animate-slide-up" 
+                         data-images="assets/images/project-environment.jpg,assets/images/more-env-1.jpg,assets/images/more-env-2.jpg">
+                        <img src="assets/images/project-environment.jpg" alt="Environment Program" loading="lazy">
+                        <div class="project-detail-content">
+                            <h3>Environment Program</h3>
+                            <p>We actively engage in tree plantation, regular clean-up campaigns for rivers and public spaces, and awareness programs to promote environmental stewardship. Our goal is to create a cleaner, greener Chitwan and inspire a culture of conservation.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
+                        </div>
                     </div>
-                    <div class="column">
-                        <h2 class="section-title">Our Vision</h2>
-                        <p>We envision a clean, green, and healthy society where nature is protected, children have access to quality education, communities are healthy, and every individual is an active steward of the environment for future generations.</p>
+
+                    <!-- Project: Elephant Dung Paper -->
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-elephant-paper.jpg,assets/images/more-paper-1.jpg,assets/images/more-paper-2.jpg,assets/images/more-paper-3.jpg">
+                        <img src="assets/images/project-elephant-paper.jpg" alt="Elephant Dung Paper" loading="lazy">
+                        <div class="project-detail-content">
+                            <h3>Elephant Dung Paper Enterprise</h3>
+                            <p>A flagship project that addresses human-elephant conflict by creating economic value from elephant dung. This eco-friendly paper production provides local employment, funds conservation efforts, and promotes a unique, sustainable product.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
+                        </div>
                     </div>
+
+                    <!-- Project: Education -->
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-education.jpg,assets/images/more-edu-1.jpg,assets/images/more-edu-2.jpg">
+                        <img src="assets/images/project-education.jpg" alt="Education Program" loading="lazy">
+                        <div class="project-detail-content">
+                            <h3>Education Program</h3>
+                            <p>We believe education is key to a brighter future. GSN sponsors the education of underprivileged children, providing them with scholarships, uniforms, and necessary school supplies to ensure they can stay in school and reach their full potential.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
+                        </div>
+                    </div>
+
+                    <!-- Project: Health Clinic -->
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-health.jpg,assets/images/more-health-1.jpg,assets/images/more-health-2.jpg">
+                        <img src="assets/images/project-health.jpg" alt="Health Clinic" loading="lazy">
+                        <div class="project-detail-content">
+                            <h3>Community Health Clinic</h3>
+                            <p>Our health clinic provides accessible and affordable basic health services to the local community. We focus on primary care, health check-ups, and awareness campaigns to improve the overall well-being of the residents of Sauraha and surrounding areas.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
+                        </div>
+                    </div>
+
+                    <!-- Project: Craft Centre -->
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-craft.jpg,assets/images/more-craft-1.jpg,assets/images/more-craft-2.jpg">
+                        <img src="assets/images/project-craft.jpg" alt="Craft Centre" loading="lazy">
+                        <div class="project-detail-content">
+                            <h3>Local Craft Centre</h3>
+                            <p>To empower local women and preserve traditional skills, our craft center provides training and a marketplace for handmade goods. This initiative creates economic independence and celebrates the rich cultural heritage of the region.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Project: Volunteer Program -->
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-volunteer.jpg,assets/images/more-volunteer-1.jpg,assets/images/more-volunteer-2.jpg">
+                        <img src="assets/images/project-volunteer.jpg" alt="Volunteer Program" loading="lazy">
+                        <div class="project-detail-content">
+                            <h3>Volunteer Program</h3>
+                            <p>We welcome volunteers from around the world to contribute their skills and passion. Our program offers a chance to immerse in Nepali culture while making a tangible impact in our environmental, educational, and community projects.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <!-- History Section -->
-        <section class="section-padding bg-light">
-            <div class="container text-center animate-slide-up">
-                <h2 class="section-title">Our History</h2>
-                <p class="section-intro max-width-lg">
-                    Founded in 2011 by a group of passionate youths in Sauraha, Chitwan, Green Society Nepal was born out of a desire to address pressing environmental and social issues in our community. From humble beginnings organizing local clean-up drives, we have grown into a respected organization managing diverse projects, including our flagship Elephant Dung Paper enterprise, educational sponsorships, and a community health clinic. Our journey is a testament to the power of community action.
-                </p>
+        <!-- === MODAL LIGHTBOX STRUCTURE (DO NOT REMOVE) === -->
+        <div id="gallery-modal" class="modal-overlay">
+            <span class="modal-close">&times;</span>
+            <div class="modal-content">
+                <img src="" alt="Project Gallery Image" id="modal-image">
             </div>
-        </section>
-        
-        <!-- Team Section -->
-        <section class="section-padding">
-            <div class="container animate-slide-up">
-                <h2 class="section-title text-center">Meet the Team</h2>
-                <div class="team-grid">
-                    <div class="team-member-card">
-                        <img src="assets/images/team-placeholder.png" alt="Team Member">
-                        <h3>Basu Dev Dhungana</h3>
-                        <p>Founder / President</p>
-                    </div>
-                    <div class="team-member-card">
-                        <img src="assets/images/team-placeholder.png" alt="Team Member">
-                        <h3>Sher Bh. Pariyar</h3>
-                        <p>Vice-President</p>
-                    </div>
-                    <div class="team-member-card">
-                        <img src="assets/images/team-placeholder.png" alt="Team Member">
-                        <h3>Basu Dev Chapagain</h3>
-                        <p>Secretary</p>
-                    </div>
-                     <div class="team-member-card">
-                        <img src="assets/images/team-placeholder.png" alt="Team Member">
-                        <h3>Birendra Mahato</h3>
-                        <p>Treasurer</p>
-                    </div>
-                    <!-- Add more team members as needed -->
-                </div>
-                <div class="text-center" style="margin-top: 2rem;">
-                     <a href="members.html" class="btn btn-secondary">View All Members</a>
-                </div>
-            </div>
-        </section>
+            <a class="modal-prev">&#10094;</a>
+            <a class="modal-next">&#10095;</a>
+        </div>
+        <!-- =============================================== -->
 
     </main>
 
     <footer class="main-footer">
-    <div class="container">
-        <div class="footer-grid">
-            <div class="footer-column about">
-                <img src="assets/images/logo-white.png" alt="Green Society Nepal Logo" class="footer-logo">
-                <p>A non-profit organization dedicated to nature conservation and community empowerment in Chitwan, Nepal.</p>
-            </div>
-            <div class="footer-column links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="donation.html">Donate</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-column contact">
-                <h4>Contact Us</h4>
-                <p><i class="fas fa-map-marker-alt"></i> Sauraha, Chitwan, Nepal</p>
-                <p><i class="fas fa-phone"></i> +977-9845050529</p>
-                <p><i class="fas fa-envelope"></i> info@greensocietynepal.org</p>
-            </div>
-            <div class="footer-column social">
-                <h4>Follow Us</h4>
-                <div class="social-icons">
-                        <a href="https://www.facebook.com/hotelparkside" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/hotelparkside/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column about">
+                    <img src="assets/images/logo-white.png" alt="Green Society Nepal Logo" class="footer-logo">
+                    <p>A non-profit organization dedicated to nature conservation and community empowerment in Chitwan, Nepal.</p>
+                </div>
+                <div class="footer-column links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="donation.html">Donate</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Sauraha, Chitwan, Nepal</p>
+                    <p><i class="fas fa-phone"></i> +977-9845050529</p>
+                    <p><i class="fas fa-envelope"></i> info@greensocietynepal.org</p>
+                </div>
+                <div class="footer-column social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/GreenSocietyNepal/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                     </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Green Society Nepal. All Rights Reserved. Redesigned by Gemini.</p>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Green Society Nepal. All Rights Reserved. Redesigned by Gemini.</p>
-        </div>
-    </div>
-</footer>
+    </footer>
 
-<!-- IMPORTANT: Don't forget the JavaScript file link right before the closing body tag -->
-<script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 </html>
