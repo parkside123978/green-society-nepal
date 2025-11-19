@@ -48,61 +48,68 @@
                 <div class="project-details-grid">
 
                     <!-- Project: Environment -->
-                    <div class="project-detail-card animate-slide-up">
+                    <div class="project-detail-card animate-slide-up" 
+                         data-images="assets/images/project-environment.jpg,assets/images/more-env-1.jpg,assets/images/more-env-2.jpg">
                         <img src="assets/images/project-environment.jpg" alt="Environment Program" loading="lazy">
-                        <div class="project-detail-card animate-slide-up" 
-     data-images="assets/images/project-environment.jpg,assets/images/more-env-1.jpg,assets/images/more-env-2.jpg">
-    <img src="assets/images/project-environment.jpg" alt="Environment Program" loading="lazy">
-    <div class="project-detail-content">
-        <h3>Environment Program</h3>
-        <p>We actively engage in tree plantation...</p>
-        <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
-    </div>
-</div>
+                        <div class="project-detail-content">
+                            <h3>Environment Program</h3>
+                            <p>We actively engage in tree plantation, regular clean-up campaigns for rivers and public spaces, and awareness programs to promote environmental stewardship.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
+                        </div>
                     </div>
 
                     <!-- Project: Elephant Dung Paper -->
-                    <div class="project-detail-card animate-slide-up">
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-elephant-paper.jpg,assets/images/more-paper-1.jpg,assets/images/more-paper-2.jpg,assets/images/more-paper-3.jpg">
                         <img src="assets/images/project-elephant-paper.jpg" alt="Elephant Dung Paper" loading="lazy">
                         <div class="project-detail-content">
                             <h3>Elephant Dung Paper Enterprise</h3>
-                            <p>A flagship project that addresses human-elephant conflict by creating economic value from elephant dung. This eco-friendly paper production provides local employment, funds conservation efforts, and promotes a unique, sustainable product.</p>
+                            <p>A flagship project that addresses human-elephant conflict by creating economic value from elephant dung. This eco-friendly paper production provides local employment and funds conservation efforts.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
                         </div>
                     </div>
 
                     <!-- Project: Education -->
-                    <div class="project-detail-card animate-slide-up">
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-education.jpg,assets/images/more-edu-1.jpg,assets/images/more-edu-2.jpg">
                         <img src="assets/images/project-education.jpg" alt="Education Program" loading="lazy">
                         <div class="project-detail-content">
                             <h3>Education Program</h3>
-                            <p>We believe education is key to a brighter future. GSN sponsors the education of underprivileged children, providing them with scholarships, uniforms, and necessary school supplies to ensure they can stay in school and reach their full potential.</p>
+                            <p>We believe education is key to a brighter future. GSN sponsors the education of underprivileged children, providing them with scholarships, uniforms, and necessary school supplies.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
                         </div>
                     </div>
 
                     <!-- Project: Health Clinic -->
-                    <div class="project-detail-card animate-slide-up">
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-health.jpg,assets/images/more-health-1.jpg,assets/images/more-health-2.jpg">
                         <img src="assets/images/project-health.jpg" alt="Health Clinic" loading="lazy">
                         <div class="project-detail-content">
                             <h3>Community Health Clinic</h3>
-                            <p>Our health clinic provides accessible and affordable basic health services to the local community. We focus on primary care, health check-ups, and awareness campaigns to improve the overall well-being of the residents of Sauraha and surrounding areas.</p>
+                            <p>Our health clinic provides accessible and affordable basic health services to the local community, focusing on primary care, check-ups, and health awareness campaigns.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
                         </div>
                     </div>
 
                     <!-- Project: Craft Centre -->
-                    <div class="project-detail-card animate-slide-up">
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-craft.jpg,assets/images/more-craft-1.jpg,assets/images/more-craft-2.jpg">
                         <img src="assets/images/project-craft.jpg" alt="Craft Centre" loading="lazy">
                         <div class="project-detail-content">
                             <h3>Local Craft Centre</h3>
-                            <p>To empower local women and preserve traditional skills, our craft center provides training and a marketplace for handmade goods. This initiative creates economic independence and celebrates the rich cultural heritage of the region.</p>
+                            <p>To empower local women and preserve traditional skills, our craft center provides training and a marketplace for handmade goods. This initiative creates economic independence for local families.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
                         </div>
                     </div>
                     
                     <!-- Project: Volunteer Program -->
-                    <div class="project-detail-card animate-slide-up">
+                    <div class="project-detail-card animate-slide-up"
+                         data-images="assets/images/project-volunteer.jpg,assets/images/more-volunteer-1.jpg,assets/images/more-volunteer-2.jpg">
                         <img src="assets/images/project-volunteer.jpg" alt="Volunteer Program" loading="lazy">
                         <div class="project-detail-content">
                             <h3>Volunteer Program</h3>
-                            <p>We welcome volunteers from around the world to contribute their skills and passion. Our program offers a chance to immerse in Nepali culture while making a tangible impact in our environmental, educational, and community projects.</p>
+                            <p>We welcome volunteers from around the world to contribute their skills and passion. Our program offers a chance to immerse in Nepali culture while making a tangible impact in our projects.</p>
+                            <button class="btn btn-secondary btn-view-gallery">View Gallery</button>
                         </div>
                     </div>
 
@@ -110,19 +117,18 @@
             </div>
         </section>
 
+        <!-- === MODAL LIGHTBOX STRUCTURE (DO NOT REMOVE) === -->
+        <div id="gallery-modal" class="modal-overlay">
+            <span class="modal-close">&times;</span>
+            <div class="modal-content">
+                <img src="" alt="Project Gallery Image" id="modal-image">
+            </div>
+            <a class="modal-prev">&#10094;</a>
+            <a class="modal-next">&#10095;</a>
+        </div>
+        <!-- =============================================== -->
+
     </main>
-
-    <!-- === MODAL LIGHTBOX STRUCTURE (PASTE BEFORE FOOTER) === -->
-<div id="gallery-modal" class="modal-overlay">
-    <span class="modal-close">&times;</span>
-    <div class="modal-content">
-        <img src="" alt="Project Gallery Image" id="modal-image">
-    </div>
-    <a class="modal-prev">&#10094;</a>
-    <a class="modal-next">&#10095;</a>
-</div>
-<!-- ======================================================== -->
-
 
     <footer class="main-footer">
         <div class="container">
@@ -143,15 +149,15 @@
                 <div class="footer-column contact">
                     <h4>Contact Us</h4>
                     <p><i class="fas fa-map-marker-alt"></i> Sauraha, Chitwan, Nepal</p>
-                    <p><i class="fas fa-phone"></i> +977-9851074484</p>
+                    <p><i class="fas fa-phone"></i> +977-9845050529</p>
                     <p><i class="fas fa-envelope"></i> info@greensocietynepal.org</p>
                 </div>
                 <div class="footer-column social">
                     <h4>Follow Us</h4>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/gsn2064" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/greensocietynepal/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        
+                        <a href="https://www.facebook.com/GreenSocietyNepal/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
@@ -162,6 +168,6 @@
     </footer>
 
     <script src="assets/js/main.js"></script>
-    
+
 </body>
 </html>
