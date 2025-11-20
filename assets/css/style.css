@@ -769,3 +769,42 @@ img {
 .modal-next:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
+/* ---=== Project Detail Page ===--- */
+.project-detail-body .project-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.project-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.project-gallery-grid img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-gallery-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.project-cta h2 {
+    font-size: 2rem;
+}
+.project-cta p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
